@@ -20,5 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         DaggerMainActivityComponent.create().inject(this);
         Toast.makeText(this,pot.show(),Toast.LENGTH_LONG).show();
+
+        //新建分支 new  branchssss
     }
 }
